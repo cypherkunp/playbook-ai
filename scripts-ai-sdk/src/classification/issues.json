@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ACC-001",
+    "description": "Unable to access deployment dashboard after successful login"
+  },
+  {
+    "id": "ACC-002",
+    "description": "Authentication tokens expire too quickly during long development sessions"
+  },
+  {
+    "id": "ACC-003",
+    "description": "Users cannot connect their GitHub repository for automatic deployments"
+  },
+  {
+    "id": "ENH-001",
+    "description": "Request for built-in support for multiple environment variables configuration"
+  },
+  {
+    "id": "ENH-002",
+    "description": "Need ability to rollback deployments with a single click"
+  },
+  {
+    "id": "PFB-001",
+    "description": "Dashboard UI is not intuitive for managing multiple Remix projects"
+  },
+  {
+    "id": "ACC-004",
+    "description": "Team members cannot access shared workspace despite having correct permissions"
+  },
+  {
+    "id": "PFB-002",
+    "description": "Deployment logs are difficult to search and filter"
+  },
+  {
+    "id": "ENH-003",
+    "description": "Request for integrated performance monitoring tools"
+  },
+  {
+    "id": "ACC-005",
+    "description": "SSO integration fails for enterprise customers"
+  }
+]

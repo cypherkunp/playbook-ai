@@ -1,0 +1,70 @@
+[
+  {
+    "id": "ACC-001",
+    "description": "Unable to access deployment dashboard after successful login"
+  },
+  {
+    "id": "ACC-002",
+    "description": "Authentication tokens expire too quickly during long development sessions"
+  },
+  {
+    "id": "ACC-003",
+    "description": "Users cannot connect their GitHub repository for automatic deployments"
+  },
+  {
+    "id": "ENH-001",
+    "description": "Request for built-in support for multiple environment variables configuration"
+  },
+  {
+    "id": "ENH-002",
+    "description": "Need ability to rollback deployments with a single click"
+  },
+  {
+    "id": "PFB-001",
+    "description": "Dashboard UI is not intuitive for managing multiple Remix projects"
+  },
+  {
+    "id": "ACC-004",
+    "description": "Team members cannot access shared workspace despite having correct permissions"
+  },
+  {
+    "id": "PFB-002",
+    "description": "Deployment logs are difficult to search and filter"
+  },
+  {
+    "id": "ENH-003",
+    "description": "Request for integrated performance monitoring tools"
+  },
+  {
+    "id": "ACC-005",
+    "description": "SSO integration fails for enterprise customers"
+  },
+  {
+    "id": "ACC-006",
+    "description": "无法在部署后访问数据库连接"
+  },
+  {
+    "id": "PFB-003",
+    "description": "デプロイメントの進行状況が正しく表示されません"
+  },
+  {
+    "id": "ENH-004",
+    "description": "Необходима поддержка автоматического резервного копирования"
+  },
+  {
+    "id": "ACC-007",
+    "description": "Impossibile configurare le chiavi API per l'integrazione"
+  },
+  {
+    "id": "PFB-004",
+    "description": "Le tableau de bord ne répond pas pendant le déploiement"
+  },
+  {
+    "id": "ENH-005",
+    "description": "Necesito añadir múltiples dominios personalizados"
+  },
+  {
+    "id": "ACC-008",
+    "description": "لا يمكن مزامنة إعدادات المشروع مع الفريق"
+  }
+]
