@@ -13,11 +13,18 @@ export default function Chat() {
         <div key={m.id} className="whitespace-pre-wrap">
           {m.role === "user" ? "User: " : "AI: "}
           {m.toolInvocations ? (
-            m.toolInvocations.map((t) =>
-              t.toolName === "getWeather" && t.state === "result" ? (
-                <Weather key={t.toolCallId} weatherData={t.result} />
-              ) : null,
-            )
+            m.toolInvocations.map((t) => {
+              if (t.toolName === "getWeather" && t.state === "result") {
+                return <Weather key={t.toolCallId} weatherData={t.result} />;
+              }
+              if (
+                t.toolName === "getNpmPackageDetails" &&
+                t.state === "result"
+              ) {
+                return JSON.stringify(t.result);
+              }
+              return null;
+            })
           ) : (
             <p>{m.content}</p>
           )}
